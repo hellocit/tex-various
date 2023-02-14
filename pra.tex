@@ -1,5 +1,7 @@
-\documentclass{jsarticle}
+%\documentclass{jsbook}
+\documentclass[dvipdfmx]{jsarticle}%文書クラス
 \usepackage[dvipdfmx]{graphicx}
+
 \title{犬は可愛い}
 
 \author{hello cit}
@@ -19,4 +21,17 @@ nekokawaii
 節\ref{hello}においては，おはようを
 
 \subsection{猫の可愛さ}
+
+\subsection{写真}
+以下にスクリーンショットを示す．
+%\begin{figure}
+%  \centering
+%  \includegraphics[width=60]{black.png}
+%  \caption{黒いですね}
+%  \lable{fig:black}
+%\end{figure}
+\input{tanuki.tex}%別ファイルで文書を書ける関数？
+\subsection{図形}
+
+
 \end{document}

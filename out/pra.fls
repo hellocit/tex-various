@@ -31,8 +31,8 @@ INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
 INPUT /usr/share/texlive/texmf-dist/tex/latex/graphics-def/dvipdfmx.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
-INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
+INPUT /usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvipdfmx.def
 INPUT out/pra.aux
 INPUT out/pra.aux
 OUTPUT out/pra.aux
@@ -67,5 +67,7 @@ OUTPUT out/pra.toc
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/jis/jisg.tfm
 INPUT /usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmss12.tfm
+INPUT tanuki.tex
+INPUT tanuki.tex
 OUTPUT out/pra.dvi
 INPUT out/pra.aux
