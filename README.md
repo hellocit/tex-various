@@ -14,6 +14,9 @@ evince hoge.tex
 1. 数式処理システム
 2. sagemath
 3. 
+
+# Conclusion
+theistemplateが優秀すぎる
 # References
 * https://qiita.com/rainbartown/items/d7718f12d71e688f3573
 * https://github.com/matsumotokoki/thesis_template
